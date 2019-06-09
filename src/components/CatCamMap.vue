@@ -18,7 +18,6 @@ import cameraCanvas from "../constants/camera";
 import axios from 'axios';
 import { Promise } from 'q';
 const LEAFLET_SCRIPT = 'https://unpkg.com/leaflet@1.5.1/dist/leaflet.js';
-// const MAPBOX_TOKEN = 'sk.eyJ1IjoiY3Jld3MiLCJhIjoiY2p3bnMxZ3d6MTM5YzN6b2xqZ2xmMm4ycCJ9.3A6Le1fvMlS8TZx02tPK9w';
 const LEAFLET_RETRY = 5;
 const VIEW_COORDINATE_X = 47.2185;
 const VIEW_COORDINATE_Y = 38.9179;
