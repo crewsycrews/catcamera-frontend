@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Main msg="CATCAM"/>
+    <CatCamMap />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Main from './components/Main.vue'
+import CatCamMap from './components/CatCamMap.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Main,
+    CatCamMap
   }
 }
 </script>
