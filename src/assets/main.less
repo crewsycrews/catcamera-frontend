@@ -1,14 +1,139 @@
-h3 {
-    margin: 40px 0 0;
-  }
-  ul {
-    list-style-type: none;
+@import "./mont.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    font-family: Roboto;
+    margin: 0;
     padding: 0;
-  }
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  a {
-    color: #42b983;
-  }
+}
+
+h1 {
+    margin: 0;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+p {
+    font-style: normal;
+    position: relative;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    color: #000;
+}
+
+strong {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Roboto;
+    
+}
+
+.header {
+    margin-top: 0;
+    height: 80px;
+    padding: 0 280px;
+    background-color: #FFE600;
+}
+
+.menu {
+    display: flex;
+    padding-top: 5px;
+    justify-content: flex-end;
+}
+
+.logo__img {
+    flex-grow: 1;
+    padding-top: 8px;
+}
+
+
+.menu__item { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 15px;
+    margin: 0;
+    height: 50px;
+}
+.input__text {
+  position: absolute;
+  left: 0;
+  z-index: 9999;
+  width: 65%;
+  border-radius: 4px;
+  box-shadow: 5px 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.button__ {
+    text-align: center;
+    background-color: #FFE600;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    border-radius: 4px;
+    width: 30%;
+    box-shadow: 5px 4px 40px rgba(0, 0, 0, 0.2);
+    line-height: 42px;
+    cursor: pointer;
+}
+
+
+.background__rectangle {
+    position: absolute;
+    height: 340px;
+    left: 0px;
+    top: 80px;
+    background: #E8E8E8;
+}
+
+.article {
+    position: relative;
+    padding: 8px 0px;
+    margin: 0 280px;
+}
+
+
+input {
+
+    border: none;
+    border-color: transparent;
+    background-color: #FFF;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 1em;
+}
+
+.input__form {
+    display: flex;
+    height: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #49423E;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+}
+.footer__logo {
+  padding-top: 8px;
+}
+.camera {
+  position: absolute;
+}
+.footer__text {
+    padding-left: 15px;
+}
